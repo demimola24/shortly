@@ -4,8 +4,8 @@ import 'package:shrtcode/data/database/entities/entities.dart';
 @dao
 abstract class OfflineShortenLinkResponseDao {
 
-  @insert(onConflict: OnConflictStrategy.replace)
-  Future<int> insertOfflineOrderRecord(OfflineShortenLinkResponse record);
+  @Insert(onConflict: OnConflictStrategy.replace)
+  Future<int> insertOfflineShortenLinkResponse(OfflineShortenLinkResponse record);
 
   @Query('SELECT * FROM OfflineShortenLinkResponse')
   Future<List<OfflineShortenLinkResponse>> getAllOfflineShortenLinkResponses();

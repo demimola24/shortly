@@ -6,7 +6,7 @@ import 'package:shrtcode/resources/app_config.dart';
 
 class ApiProvider {
 
-  Future<ShortenLinkResponse> registerAgent(String url) async {
+  Future<ShortenLinkResponse> fetchShortUrl(String url) async {
     APIResourceManager networkManager = new APIResourceManager();
     var completer = Completer<ShortenLinkResponse>();
     try {
