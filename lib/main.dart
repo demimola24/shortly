@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shrtcode/resources/app_config.dart';
 import 'package:shrtcode/resources/color_const.dart';
+import 'package:shrtcode/ui/pages/home_screen.dart';
 
 void main() {
   BaseUrl.setEnvironment(Environment.PROD);
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.poppinsTextTheme(),
 
       ),
-      home: SplashScreen(),
+      home: HomeScreen(),
     );
   }
 }
