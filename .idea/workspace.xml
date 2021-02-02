@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cb528e-3ec2-4672-b664-5e16fff19db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/database/database.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/database/database.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/resources/size_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/resources/size_const.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/repository/repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/repository/repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ui/pages/home_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="139" column="37" lean-forward="true" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+            <state relative-caret-position="96">
+              <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#1433#1955#0" />
@@ -60,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            <state relative-caret-position="457">
+              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
               <folding>
                 <element signature="e#1#21#0" expanded="true" />
               </folding>
@@ -73,28 +69,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/resources/size_const.dart">
+        <entry file="file://$PROJECT_DIR$/lib/data/repository/repository.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/resources/imagepath.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/resources/color_const.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="358">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="43" />
+              <folding>
+                <element signature="e#1#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/lib/data/database/dao/dao.dart">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="46" />
+              <caret line="7" column="73" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="73" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -128,15 +109,17 @@
       <find>Offline</find>
       <find>OfflineSaleRecord</find>
       <find>ShortenLinkResponse</find>
-      <find>ProductItem</find>
       <find>SplashScreen</find>
+      <find>ProductItem</find>
+      <find>Product</find>
+      <find>short</find>
     </findStrings>
     <replaceStrings>
       <replace>ResponseWrapper</replace>
       <replace>APIRequestType</replace>
       <replace>apiRequestType</replace>
-      <replace>OfflineShortenLinkResponse</replace>
       <replace>HomeScreen</replace>
+      <replace>OfflineShortenLinkResponse</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -156,14 +139,14 @@
         <option value="$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart" />
         <option value="$PROJECT_DIR$/lib/data/api_providers/api_providers.dart" />
         <option value="$PROJECT_DIR$/lib/data/database/dao/dao.dart" />
-        <option value="$PROJECT_DIR$/lib/data/repository/repository.dart" />
         <option value="$PROJECT_DIR$/lib/ui/bloc/bloc.dart" />
         <option value="$PROJECT_DIR$/lib/ui/bloc/bloc_providers.dart" />
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/data/database/database.dart" />
         <option value="$PROJECT_DIR$/lib/resources/size_const.dart" />
-        <option value="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/data/repository/repository.dart" />
         <option value="$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart" />
+        <option value="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" />
       </list>
     </option>
   </component>
@@ -344,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612271891766</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="setup ui to shorten url">
+      <created>1612278090649</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612278090649</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -383,7 +373,8 @@
     <MESSAGE value="setup database classes for offline storage" />
     <MESSAGE value="setup data repository" />
     <MESSAGE value="setup home page bloc" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup home page bloc" />
+    <MESSAGE value="setup ui to shorten url" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup ui to shorten url" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/favicon-32x32.png">
@@ -479,16 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data/repository/repository.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="e#1#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui/bloc/bloc.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -500,16 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data/database/dao/dao.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/resources/color_const.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/resources/imagepath.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -568,18 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/pages/home_screen.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="139" column="37" lean-forward="true" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-            <element signature="e#1433#1955#0" />
-            <element signature="e#2963#3768#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui/bloc/bloc_providers.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-103">
@@ -590,12 +542,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart">
+    <entry file="file://$PROJECT_DIR$/lib/resources/color_const.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/database/dao/dao.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/repository/repository.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="43" />
           <folding>
             <element signature="e#1#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#1#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ui/pages/home_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#1433#1955#0" />
+            <element signature="e#2963#3768#0" />
           </folding>
         </state>
       </provider>

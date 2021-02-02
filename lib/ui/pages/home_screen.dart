@@ -186,6 +186,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                               return Container(
                                 height: 180,
+                                margin: EdgeInsets.only(left: SizePath.DP_16,right: SizePath.DP_16, bottom: SizePath.DP_8),
                                 width: fullWidth(context),
                                 decoration: BoxDecoration(
                                     color: ColorPath.WHITE,
