@@ -25,11 +25,13 @@ class Repository {
 
   //Offline
   Future<List<OfflineShortenLinkResponse>> getAllLocalShortUrls()  async{
+    await initializeDatabase();
     return _linkResponseDao.getAllOfflineShortenLinkResponses();
   }
 
 
-  Future<int> addOfflineSaleRecord(OfflineShortenLinkResponse record) async {
+  Future<int> addOfflineShortenLinkResponse(OfflineShortenLinkResponse record) async {
+    await initializeDatabase();
     return _linkResponseDao.insertOfflineShortenLinkResponse(record);
   }
 

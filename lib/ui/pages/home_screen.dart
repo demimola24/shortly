@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:shrtcode/data/database/entities/entities.dart';
 import 'package:shrtcode/data/model/reponses/shorten_link_reponse.dart';
 import 'package:shrtcode/resources/color_const.dart';
 import 'package:shrtcode/resources/helper.dart';
@@ -165,6 +166,78 @@ class _HomeScreenState extends State<HomeScreen> {
 
                           ],
                         );
+                      }
+                  ),
+                ),
+                Container(
+                  height: 300,
+                  margin: EdgeInsets.only(top:SizePath.DP_24 ),
+                  child: StreamBuilder<List<OfflineShortenLinkResponse>>(
+                      stream: bloc.getAllOfflineShortenLinkResponseObservable,
+                      builder: (context, snapshot) {
+                        if(snapshot!=null && snapshot.hasData){
+                          return ListView.builder(
+                            itemBuilder: (context, index) {
+                              EdgeInsets padding = index == 0
+                                  ? const EdgeInsets.only(
+                                  left: 16.0, right: 8.0, top: 24.0, bottom: 8.0)
+                                  : const EdgeInsets.only(
+                                  left: 16.0, right: 8.0, top: 8, bottom: 8.0);
+
+                              return Container(
+                                height: 180,
+                                width: fullWidth(context),
+                                decoration: BoxDecoration(
+                                    color: ColorPath.WHITE,
+                                    borderRadius: BorderRadius.all(Radius.circular(8))
+                                ),
+                                margin: EdgeInsets.only(left: SizePath.DP_24,right: SizePath.DP_24, top: SizePath.DP_48),
+                                child: Column(
+                                  children: [
+                                    Container(
+                                      margin: EdgeInsets.only(left: SizePath.DP_24,right: SizePath.DP_24, top:SizePath.DP_16 ),
+                                      child: Text(snapshot.data[index].originalLink,textAlign: TextAlign.center,
+                                          style: GoogleFonts.poppins(color: ColorPath.GRAYISH_VIOLET, fontSize: 18,fontWeight: FontWeight.normal,height:1.5)),
+                                    ),
+                                    Divider(),
+                                    Container(
+                                      margin: EdgeInsets.only(left: SizePath.DP_24,right: SizePath.DP_24, top:SizePath.DP_16 ),
+                                      child: Text(snapshot.data[index].fullShortLink,textAlign: TextAlign.center,
+                                          style: GoogleFonts.poppins(color: ColorPath.GRAYISH_VIOLET, fontSize: 18,fontWeight: FontWeight.normal,height:1.5)),
+                                    ),
+                                    Container(
+                                      height: 56,
+                                      width: fullWidth(context),
+                                      margin: EdgeInsets.only(left: SizePath.DP_16,right: SizePath.DP_16, bottom: SizePath.DP_16),
+                                      child: Material(  //Wrap with Material
+                                        shape: RoundedRectangleBorder(borderRadius:BorderRadius.circular(8.0) ),
+                                        clipBehavior: Clip.antiAlias, // Add This
+                                        child: MaterialButton(
+                                          height: 40,
+                                          color: ColorPath.PRIMARY_CYAN,
+                                          child: Text(
+                                              "Copy",
+                                              style: GoogleFonts.poppins(color: ColorPath.WHITE, fontSize: 18,fontWeight: FontWeight.normal)
+                                          ),
+                                          onPressed:() async {
+                                            Clipboard.setData(ClipboardData(text:snapshot.data[index].fullShortLink))
+                                                .then((value) {
+
+                                            });
+                                          },
+                                        ),
+                                      ),
+                                    )
+                                  ],
+                                ),
+                              );
+                            },
+                            scrollDirection: Axis.vertical,
+                            itemCount: snapshot.data.length,
+                          );
+                        }else{
+                          return SizedBox();
+                        }
                       }
                   ),
                 )
