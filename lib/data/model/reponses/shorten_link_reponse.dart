@@ -1,4 +1,5 @@
 
+import 'package:shrtcode/data/database/entities/entities.dart';
 
 class ShortenLinkResponse {
   String code;
@@ -42,5 +43,9 @@ class ShortenLinkResponse {
     data['full_share_link'] = this.fullShareLink;
     data['original_link'] = this.originalLink;
     return data;
+  }
+
+  OfflineShortenLinkResponse toOfflineData() {
+    return OfflineShortenLinkResponse(code: this.code,fullShortLink: this.fullShortLink, originalLink: this.originalLink);
   }
 }

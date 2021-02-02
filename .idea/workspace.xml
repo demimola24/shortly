@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cb528e-3ec2-4672-b664-5e16fff19db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/data/network_manager/network_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/api_providers/api_providers.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/database/dao/dao.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/database/database.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/data/database/entities/entities.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/model/default_reponse.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/model/default_reponse.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,17 +33,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            <state relative-caret-position="307">
+              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/data/database/dao/dao.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/data/database/database.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <folding>
+                <element signature="e#2#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/data/database/entities/entities.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/data/network_manager/network_manager.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -71,11 +107,16 @@
       <find>CtuApiResponse</find>
       <find>CtuRequestType</find>
       <find>aPIRequestType</find>
+      <find>Offline</find>
+      <find>OfflineSaleRecord</find>
+      <find>ShortenLinkResponse</find>
+      <find>ProductItem</find>
     </findStrings>
     <replaceStrings>
       <replace>ResponseWrapper</replace>
       <replace>APIRequestType</replace>
       <replace>apiRequestType</replace>
+      <replace>OfflineShortenLinkResponse</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -90,9 +131,13 @@
         <option value="$PROJECT_DIR$/lib/resources/size_const.dart" />
         <option value="$PROJECT_DIR$/lib/resources/imagepath.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart" />
         <option value="$PROJECT_DIR$/lib/data/model/default_reponse.dart" />
         <option value="$PROJECT_DIR$/lib/data/network_manager/network_manager.dart" />
+        <option value="$PROJECT_DIR$/lib/data/api_providers/api_providers.dart" />
+        <option value="$PROJECT_DIR$/lib/data/database/entities/entities.dart" />
+        <option value="$PROJECT_DIR$/lib/data/database/dao/dao.dart" />
+        <option value="$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart" />
+        <option value="$PROJECT_DIR$/lib/data/database/database.dart" />
       </list>
     </option>
   </component>
@@ -133,14 +178,20 @@
               <item name="dartflutter-dubicf" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="api_providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dartflutter-dubicf" type="b2602c69:ProjectViewProjectNode" />
               <item name="dartflutter-dubicf" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="network_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dartflutter-dubicf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dartflutter-dubicf" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,16 +205,17 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/data/network_manager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/data/database" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/data/database" />
+      <recent name="$PROJECT_DIR$/lib/data/api_providers" />
       <recent name="$PROJECT_DIR$/lib/data/network_manager" />
       <recent name="$PROJECT_DIR$/lib/data/model" />
       <recent name="$PROJECT_DIR$/lib/resources" />
-      <recent name="$PROJECT_DIR$/lib/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612266574916</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setup API Manager class">
+      <created>1612267594132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612267594132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -236,9 +295,9 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" weight="0.36891893" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.36891893" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Flutter Inspector" />
@@ -251,7 +310,8 @@
     <MESSAGE value="update dependency list in yaml file" />
     <MESSAGE value="added image, color, size and API helper constants" />
     <MESSAGE value="setup API response model" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup API response model" />
+    <MESSAGE value="setup API Manager class" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup API Manager class" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
@@ -264,13 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/resources/app_config.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -295,17 +348,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/data/model/default_reponse.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resources/app_config.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/network_manager/network_manager.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/api_providers/api_providers.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -316,12 +389,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/data/network_manager/network_manager.dart">
+    <entry file="file://$PROJECT_DIR$/lib/data/database/entities/entities.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/model/reponses/shorten_link_reponse.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/database/dao/dao.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="44" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/data/database/database.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#2#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
