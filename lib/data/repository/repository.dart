@@ -18,6 +18,8 @@ class Repository {
     }
   }
 
+
+  //Online
   Future<ShortenLinkResponse> fetchShortUrl(String url) => apiProvider.fetchShortUrl(url);
 
 
