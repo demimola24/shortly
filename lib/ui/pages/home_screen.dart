@@ -30,12 +30,12 @@ class _HomeScreenState extends State<HomeScreen> {
     return BlocProvider<HomeBloc>(
       bloc: bloc,
       child: Scaffold(
-        backgroundColor: ColorPath.WHITE,
+        backgroundColor: ColorPath.OFF_WHITE,
         body: Container(
           height: fullHeight(context),
           width:  fullWidth(context),
           alignment: Alignment.topCenter,
-          decoration: BoxDecoration(color: ColorPath.WHITE),
+          decoration: BoxDecoration(color: ColorPath.OFF_WHITE),
           padding: EdgeInsets.all(0.0),
           margin: EdgeInsets.only(top: 60),
           child: SingleChildScrollView(
@@ -185,15 +185,15 @@ class _HomeScreenState extends State<HomeScreen> {
                                   left: 16.0, right: 8.0, top: 8, bottom: 8.0);
 
                               return Container(
-                                height: 180,
+                                height: 200,
                                 margin: EdgeInsets.only(left: SizePath.DP_16,right: SizePath.DP_16, bottom: SizePath.DP_8),
                                 width: fullWidth(context),
                                 decoration: BoxDecoration(
                                     color: ColorPath.WHITE,
                                     borderRadius: BorderRadius.all(Radius.circular(8))
                                 ),
-                                margin: EdgeInsets.only(left: SizePath.DP_24,right: SizePath.DP_24, top: SizePath.DP_48),
                                 child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                   children: [
                                     Container(
                                       margin: EdgeInsets.only(left: SizePath.DP_24,right: SizePath.DP_24, top:SizePath.DP_16 ),
@@ -209,7 +209,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     Container(
                                       height: 56,
                                       width: fullWidth(context),
-                                      margin: EdgeInsets.only(left: SizePath.DP_16,right: SizePath.DP_16, bottom: SizePath.DP_16),
+                                      margin: EdgeInsets.only(left: SizePath.DP_16,right: SizePath.DP_16, bottom: SizePath.DP_16,top: SizePath.DP_8),
                                       child: Material(  //Wrap with Material
                                         shape: RoundedRectangleBorder(borderRadius:BorderRadius.circular(8.0) ),
                                         clipBehavior: Clip.antiAlias, // Add This

@@ -17,6 +17,8 @@ class ColorPath {
   static const VERY_DARK_VIOLET = Color(0xFF232127);
 
 
+  static const OFF_WHITE = Color(0xfff8f8ff);
+
   static const WHITE = Color(0xffffffff);
   static const BLACK = Color(0xff000000);
 

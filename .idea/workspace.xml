@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54cb528e-3ec2-4672-b664-5e16fff19db1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/data/repository/repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/repository/repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/resources/color_const.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/resources/color_const.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,13 +45,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ui/pages/home_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+            <state relative-caret-position="172">
+              <caret line="195" column="82" selection-start-line="195" selection-start-column="82" selection-end-line="195" selection-end-column="82" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#1433#1955#0" />
                 <element signature="e#2963#3768#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/resources/color_const.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -113,6 +122,7 @@
       <find>ProductItem</find>
       <find>Product</find>
       <find>short</find>
+      <find>copy</find>
     </findStrings>
     <replaceStrings>
       <replace>ResponseWrapper</replace>
@@ -130,7 +140,6 @@
       <list>
         <option value="$PROJECT_DIR$/lib/data/network_manager.dart" />
         <option value="$PROJECT_DIR$/lib/resources/app_config.dart" />
-        <option value="$PROJECT_DIR$/lib/resources/color_const.dart" />
         <option value="$PROJECT_DIR$/lib/resources/imagepath.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/data/model/default_reponse.dart" />
@@ -146,6 +155,7 @@
         <option value="$PROJECT_DIR$/lib/resources/size_const.dart" />
         <option value="$PROJECT_DIR$/lib/data/repository/repository.dart" />
         <option value="$PROJECT_DIR$/lib/ui/bloc/home_bloc.dart" />
+        <option value="$PROJECT_DIR$/lib/resources/color_const.dart" />
         <option value="$PROJECT_DIR$/lib/ui/pages/home_screen.dart" />
       </list>
     </option>
@@ -334,7 +344,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612278090649</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="show saved urls">
+      <created>1612279160780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612279160780</updated>
+    </task>
+    <task id="LOCAL-00010" summary="minor fixes on saved list builder">
+      <created>1612279266208</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612279266209</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -374,7 +398,9 @@
     <MESSAGE value="setup data repository" />
     <MESSAGE value="setup home page bloc" />
     <MESSAGE value="setup ui to shorten url" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup ui to shorten url" />
+    <MESSAGE value="show saved urls" />
+    <MESSAGE value="minor fixes on saved list builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fixes on saved list builder" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/images/favicon-32x32.png">
@@ -542,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/resources/color_const.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/data/database/dao/dao.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -579,10 +598,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/resources/color_const.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ui/pages/home_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+        <state relative-caret-position="172">
+          <caret line="195" column="82" selection-start-line="195" selection-start-column="82" selection-end-line="195" selection-end-column="82" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#1433#1955#0" />
