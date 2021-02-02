@@ -170,13 +170,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Container(
-                  height: 300,
                   margin: EdgeInsets.only(top:SizePath.DP_24 ),
                   child: StreamBuilder<List<OfflineShortenLinkResponse>>(
                       stream: bloc.getAllOfflineShortenLinkResponseObservable,
                       builder: (context, snapshot) {
                         if(snapshot!=null && snapshot.hasData){
                           return ListView.builder(
+                            shrinkWrap: true,
                             itemBuilder: (context, index) {
                               EdgeInsets padding = index == 0
                                   ? const EdgeInsets.only(
