@@ -37,6 +37,8 @@ dependencies:
   google_fonts: ^1.1.0
   intl: ^0.16.1
   floor: ^0.18.0
+  flutter_bloc: ^6.0.4
+  equatable: ^1.2.4
 
 dev_dependencies:
   flutter_test:

@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shrtcode/resources/app_config.dart';
 import 'package:shrtcode/resources/color_const.dart';
+import 'package:shrtcode/ui/bloc/new/flutter_bloc.dart';
 import 'package:shrtcode/ui/pages/home_screen.dart';
+
+import 'data/repository/repository.dart';
 
 void main() {
   BaseUrl.setEnvironment(Environment.PROD);
@@ -33,7 +37,17 @@ class MyApp extends StatelessWidget {
         textTheme: GoogleFonts.poppinsTextTheme(),
 
       ),
-      home: HomeScreen(),
+      home: MultiBlocProvider(
+        providers: [
+          BlocProvider<OnlineHomeBloc>(
+            create: (BuildContext context) => OnlineHomeBloc(repo: Repository(), textEditingController: TextEditingController()),
+          ),
+          BlocProvider<OfflineHomeBloc>(
+            create: (BuildContext context) => OfflineHomeBloc(repo: Repository()),
+          ),
+        ],
+        child: HomeScreen(),
+      ),
     );
   }
 }

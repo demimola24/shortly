@@ -22,6 +22,10 @@ async
 2.12
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3/
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.5.0-nullsafety.3/lib/
+bloc
+2.6
+file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1/
+file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1/lib/
 boolean_selector
 2.12
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3/
@@ -114,6 +118,10 @@ dio
 2.4
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/dio-3.0.10/
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/dio-3.0.10/lib/
+equatable
+2.0
+file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.5/
+file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.5/lib/
 fake_async
 2.12
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.3/
@@ -142,6 +150,10 @@ floor_generator
 2.6
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/floor_generator-0.18.0/
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/floor_generator-0.18.0/lib/
+flutter_bloc
+2.6
+file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1/
+file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1/lib/
 flutter_svg
 2.2
 file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_svg-0.18.0/

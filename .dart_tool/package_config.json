@@ -32,6 +32,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "bloc",
+      "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-6.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0-nullsafety.3",
       "packageUri": "lib/",
@@ -170,6 +176,12 @@
       "languageVersion": "2.4"
     },
     {
+      "name": "equatable",
+      "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/equatable-1.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.2.0-nullsafety.3",
       "packageUri": "lib/",
@@ -216,6 +228,12 @@
       "rootUri": "file:///Users/macbookpro/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_bloc",
+      "rootUri": "file:///Users/macbookpro/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-6.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
     },
     {
       "name": "flutter_driver",
@@ -716,7 +734,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-02-02T11:43:20.220199Z",
+  "generated": "2021-02-03T13:54:34.225107Z",
   "generator": "pub",
   "generatorVersion": "2.12.0-133.7.beta"
 }
